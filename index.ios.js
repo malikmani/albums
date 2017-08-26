@@ -1,13 +1,14 @@
 // Index.ios.js - a place for iOS
 
 import React from 'react';
-import { Text, AppRegistry } from 'react-native';
+import { AppRegistry } from 'react-native';
+import Header from './src/components/header'
 
 // create a Component
 
 const App = () => {
 return (
-  <Text> Some Text </Text>
+  <Header />
 );
 };
 
